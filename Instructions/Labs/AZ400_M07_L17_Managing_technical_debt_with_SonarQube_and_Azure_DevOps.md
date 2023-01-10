@@ -272,7 +272,7 @@ In this task, you will check pipeline results.
 
 1.  Verify that the report does not include the Quality Gate results and note the reason for its absence.
 
-    > **Note**: To be able to see the Quality gate result, after running he first report we need to set **New Code Definition**. This way, subsequent pipeline runs will include Quality Gate results.
+    > **Note**: To be able to see the Quality gate result, after running the first report we need to set **New Code Definition**. This way, subsequent pipeline runs will include Quality Gate results.
 
 1.  On the **Overview** tab of the SonarCloud project (Sonarcloud website), click on **Administration** icon (left column) and **New Code**.
 
