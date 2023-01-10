@@ -153,6 +153,8 @@ In this task, you will import an existing CI YAML pipeline definition, modify an
 
 1. In the YAML pipeline definition, customize your Resource Group name by replacing **NAME** on **AZ400-EWebShop-NAME** and replace **YOUR-SUBSCRIPTION-ID** with the your own Azure subscriptionId.
 
+2. Change **line number 53** from $value=$var.loginServer.value to **$value=$var.acrloginServer.value**.  
+
 1. Click on **Save and Run** and wait for the pipeline to execute successfully.
 
     > **Note**: The build may take a few minutes to complete. The build definition consists of the following tasks:
