@@ -230,6 +230,7 @@ In this task, you will set up the release tasks as part of the Release Pipeline.
 1. On the **All pipelines > New Release Pipeline** pane, click **Save** and, in the **Save** dialog box, click **OK**.
 
 You have now successfully configured the Release Pipeline.
+#### Task 2:  Trigger Release Pipeline 
 
 1. In the browser window displaying the **EshopOnWeb_ReleaseGates** project, in the vertical navigational pane, in the **Pipelines** section, click **Pipelines**.
 1. On the **Pipelines** pane, click the entry representing **eShopOnWeb_ReleaseGates** build pipeline and then, on the **eShopOnWeb_ReleaseGates** pane, click on **Run Pipeline**.
@@ -240,6 +241,7 @@ You have now successfully configured the Release Pipeline.
 1. In the vertical navigational pane, in the **Pipelines** section, click **Releases** and, on the **eShopOnWeb_ReleaseGates** pane, click the entry representing the most recent release.
 1. On the **eShopOnWeb_ReleaseGates > Release-1** blade, track the progress of the release and verify that the deployment to both web apps completed successfully.
 1. Switch to the Azure portal interface, navigate to the resource group **az400m04l09-RG**, in the list of resources, click the **Canary** web app, on the web app blade, click **Browse**, and verify that the web page (E-commerce website) loads successfully in a new web browser tab.
+1. In the browser url address bar, edit and add **/fail** to the end of the url. The url should looklike `https://rgatesxxxxx-canary.azurewebsites.net/fail`. This will fail the website to load giving http 404 error. This is done intentionally to generate failed alert. 
 1. Switch back to the Azure portal interface, this time navigating  to the resource group **az400m04l09-RG**, in the list of resources, click the **Production** web app, on the web app blade, click **Browse**, and verify that the web page loads successfully in a new web browser tab.
 1. Close the web browser tab displaying the **EShopOnWeb** web site.
 
@@ -301,7 +303,7 @@ In this task, you will track the release process with the release gates enabled.
 1. From the Azure Portal, in the "Search resources, services and docs" field, enter **Alerts** to open the Alerts Service of Azure Monitor.
 1. Notice there should be at least **1 Alert** with **Severity 2 - Warning** showing up in the list. This got trigger when you validated the website in the previous exercise.
 
-    > ** Note:** If no Alert shows up yet, wait another few minutes. Speeding up Alerts is possible by navigating to the Canary-URL again from a browser.
+    > ** Note:** If no Alert shows up yet, wait another few minutes. Speeding up Alerts is possible by repeating steps in Exercise 2, Task 2 Steps.
 
 1. Return back to the Azure DevOps Portal, open the **EShopOnWeb-Release Gates** Project. Navigate to **Pipelines**, select **Releases** and select the **New Release Pipeline**.
 1. Click the **Create Release** button.
@@ -313,7 +315,7 @@ In this task, you will track the release process with the release gates enabled.
 
     > **Note**: Since there is an alert triggered by the exception, **Query Azure Monitor** gate will fail. This, in turn, will prevent deployment to the **Production** environment.
 
-1. Wait another 3 minutes and validate the status of the Release Gates again. As it is now +8 minutes after the initial Release Gates got checked, and it's been more than 8 minutes since the initial Application Insight Alert got triggered with action "Fired", it should result in a successful Release Gate, having allowed the deployment of the Production Release Stage as well.
+1. Wait another 3 minutes and validate the status of the Release Gates again. As it is now +8 minutes after the initial Release Gates got checked, and it's been more than 8 minutes, it should result in a failed Release Gate.
 
 ## Review
 
