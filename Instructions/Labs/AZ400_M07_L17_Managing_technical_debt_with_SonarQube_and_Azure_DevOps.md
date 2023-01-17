@@ -47,7 +47,13 @@ In this exercise, you will set up the prerequisites for the lab, which consist o
 
 In this task, you will create a new Azure DevOps project based on the [Sonar Scanning Examples repository](https://github.com/SonarSource/sonar-scanning-examples.git) repository.
 
-1.  On your lab computer, start a web browser, navigate to the [**Azure DevOps portal**](https://dev.azure.com) and sign in to your Azure DevOps organization.
+1. On your lab VM open **Edge Browser** on desktop and navigate to https://aex.dev.azure.com. Then login with the credentials provided in environment details tab.
+
+    ![Azure DevOps](images/login-page.png)
+    
+1. On the next page if asked, click on **Create new organization** else, skip this step.
+
+    ![Azure DevOps](images/devops-create-org.png)
 
 2. On the Azure Devops page click on **Azure DevOps** located at top left corner and then click on **Organization Setting** at the left down corner
 
