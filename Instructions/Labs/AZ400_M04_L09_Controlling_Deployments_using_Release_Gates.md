@@ -39,7 +39,7 @@ After you complete this lab, you will be able to:
 
     ![Azure DevOps](images/login-page.png)
     
-1. On the next page if asked, click on **Create new organization**.
+1. On the next page if asked, click on **Create new organization** else, skip this step.
 
     ![Azure DevOps](images/devops-create-org.png)
 
