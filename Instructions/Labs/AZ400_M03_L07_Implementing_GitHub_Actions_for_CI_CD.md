@@ -14,6 +14,8 @@ After you complete this lab, you will be able to:
 
 ## Instructions
 
+-> A CloudFormation stack called **eksctl-<inject key="ODLUser" enablecopy="false"></inject>-sensor-cluster-cluster**
+
 #### Prepare a GitHub account
 
 1. If you already have a GitHub account that you can use for this lab proceed with Exercise 1, else follow the instructions to create an account.
