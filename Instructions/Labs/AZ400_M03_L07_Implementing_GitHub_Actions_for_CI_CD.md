@@ -14,7 +14,7 @@ After you complete this lab, you will be able to:
 
 ## Instructions
 
--> A CloudFormation stack called **eksctl-<inject key="ODLUser" enablecopy="false"></inject>-sensor-cluster-cluster**
+-> A CloudFormation stack called **eksctl-<inject key="UserName" enablecopy="false"></inject>-sensor-cluster-cluster**
 
 #### Prepare a GitHub account
 
