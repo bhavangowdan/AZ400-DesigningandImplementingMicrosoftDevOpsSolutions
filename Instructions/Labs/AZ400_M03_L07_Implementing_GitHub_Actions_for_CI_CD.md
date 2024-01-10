@@ -177,3 +177,5 @@ In this task, you will use GitHub environments to ask for manual approval before
 ## Review
 
 In this lab, you implemented a GitHub Action workflow that deploys an Azure web app by using DevOps Starter.
+
+1. <value="StaticValue4" inject key="UserName" value="StaticValue4" enableCopy="true" />
