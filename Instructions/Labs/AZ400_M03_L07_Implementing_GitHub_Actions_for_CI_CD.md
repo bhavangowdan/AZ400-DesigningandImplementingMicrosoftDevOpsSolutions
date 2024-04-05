@@ -226,6 +226,7 @@ In this task, you are going to push the image from ECR to EKS which will create 
                image: <inject key="UserName" value=":lab" enableCopy="false" />
                ports:
                  - containerPort: 80
+
      ```
     
      </div>
