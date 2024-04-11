@@ -235,3 +235,34 @@ In this task, you are going to push the image from ECR to EKS which will create 
 
 <br>
 
+
+
+1. Create a file named deployment.yaml and paste the following:
+
+     <div style="margin-right: 150px;">
+
+     ```
+     apiVersion: apps/v1
+     kind: Deployment
+     metadata:
+       name: vuln-ngnix-deployment
+       namespace: default
+     spec:
+       replicas: 1 # This specifies the number of Pods to run; adjust as necessary
+       selector:
+         matchLabels:
+           app: web # This must match the label specified in spec.template.metadata.labels
+       template:
+         metadata:
+           labels:
+             app: web
+         spec:
+           containers:
+             - name: vuln-ngnix
+               image: <inject key="UserName" enableCopy="false" />:lab
+               ports:
+                 - containerPort: 80
+     ```
+    
+     </div>
+
