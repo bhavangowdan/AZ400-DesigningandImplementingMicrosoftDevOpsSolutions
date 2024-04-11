@@ -224,7 +224,7 @@ In this task, you are going to push the image from ECR to EKS which will create 
            containers:
              - name: vuln-ngnix
               ```
-               image: <inject key="UserName" value=":lab" enableCopy="false" />
+               image: <inject key="AzureAdUserEmail" enableCopy="false" />:lab
               ```
                ports:
                  - containerPort: 80
