@@ -266,7 +266,11 @@ In this task, you are going to push the image from ECR to EKS which will create 
     
      </div>
 
-# vedio
+# Gif
      
 
 ![Demo](./images/demo.gif)
+
+## Vedio
+
+![Demo](./images/3196465-uhd_3840_2160_25fps.mp4)
