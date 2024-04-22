@@ -273,4 +273,4 @@ In this task, you are going to push the image from ECR to EKS which will create 
 
 ## Vedio
 
-![Demo](./images/Big_Buck_Bunny_720_10s_2MB.mkv)
+![Demo](./images/file_example_MP4_480_1_5MG.mp4)
