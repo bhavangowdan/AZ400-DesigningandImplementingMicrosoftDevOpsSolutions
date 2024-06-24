@@ -275,3 +275,21 @@ In this task, you are going to push the image from ECR to EKS which will create 
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xaTaLZDKB5E/0.jpg)](https://www.youtube.com/watch?v=xaTaLZDKB5E)
 
+
+# Dependencies
+
+1. `lab-structure` bucket in risk sandbox account (PUBLIC)
+2. Wiz-traing repo
+3. Git token added to lab in cloudlabs for this lab
+4. Changes to lab require using the respective platform deploy scripts
+   1. if you change cross account files that get pulled from s3, then deploy all of them.
+
+
+> [!NOTE]
+>
+> Ok for now, but ask Cloudlabs to use the token so we can put everything in protected Github accounts.
+
+
+:question: How locked down are their cloned versions at `docs-api.cloudlabs`
+
+
