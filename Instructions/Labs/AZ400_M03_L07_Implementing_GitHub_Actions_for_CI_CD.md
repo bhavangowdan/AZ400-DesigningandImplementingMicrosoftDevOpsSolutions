@@ -304,4 +304,4 @@ In this task, you are going to push the image from ECR to EKS which will create 
 
 >**Notes:** abcdefghijklmnopqrstuvwxyz!!!!!
 
-
+❓question to test
