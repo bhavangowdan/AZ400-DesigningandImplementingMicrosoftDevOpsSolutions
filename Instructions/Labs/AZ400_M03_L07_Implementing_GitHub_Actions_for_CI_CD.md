@@ -191,7 +191,7 @@ In this lab, you implemented a GitHub Action workflow that deploys an Azure web 
 **checkNNumber:** <inject key="UserName" value="StaticValue" key="UserName"  value="StaticValue" />
 
 
-**url:** <inject key="AzureAdUserPassword" value="StaticValue2" key="AzureAdUserEmail" value="StaticValue1" enableCopy="false" />
+**url:** <inject key="GET-DEPLOYMENT-REGION" value="StaticValue2" key="AzureAdUserEmail" value="StaticValue1" enableCopy="false" />
 
 ## Push image from ECR to EKS cluster
 
