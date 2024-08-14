@@ -180,7 +180,7 @@ In this lab, you implemented a GitHub Action workflow that deploys an Azure web 
 
 <inject key="UserNamee" enableCopy="true" />
 
-**checkNNumber:** <inject key="UserName" value="StaticValue4" key="UserName" value="StaticValue4" 
+**checkNNumber:** <inject key="Username" value="StaticValue4" key="UserName" value="StaticValue4" 
     enableCopy="true" />
 
 **checkNNumber:** <inject key="AzureAdUserPassword" value="bhavan" key="AzureAdUserEmail" value="StaticValue1" 
@@ -188,7 +188,7 @@ In this lab, you implemented a GitHub Action workflow that deploys an Azure web 
 
 **checkNNumber:** <inject key="AzureAdUserPassword" value="StaticValue3" key="UserName"  value="StaticValue2" />
 
-**checkNNumber:** <inject key="UserName" value="StaticValue" key="UserName"  value="StaticValue" />
+**checkNNumber:** <inject key="password" value="StaticValue" key="UserName"  value="StaticValue" />
 
 
 **url:** <inject key="GET-DEPLOYMENT-REGION" value="StaticValue2" key="AzureAdUserEmail" value="StaticValue1" enableCopy="false" />
