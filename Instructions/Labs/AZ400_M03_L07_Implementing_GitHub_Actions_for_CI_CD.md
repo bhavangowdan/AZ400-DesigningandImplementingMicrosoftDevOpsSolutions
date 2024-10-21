@@ -315,5 +315,5 @@ In this task, you are going to push the image from ECR to EKS which will create 
 
 
 ```BASH
-curl -X POST "https://drywd9kea7.execute-api.us-east-1.amazonaws.com/prod/create-subdomain" -H "Content-Type: application/json" -d '{"password": "<inject key="userName" enableCopy="false"/>","subdomain": "odl2334442","public_ip": "44.203.29.86"}
+curl -X POST "https://drywd9kea7.execute-api.us-east-1.amazonaws.com/prod/create-subdomain" -H "Content-Type: application/json" -d '{"password": "<inject key="userName" enableCopy="false"/>","subdomain": "<inject key="userName" enableCopy="false"/>","public_ip": "<inject key="userName" enableCopy="false"/>"}
 ```
