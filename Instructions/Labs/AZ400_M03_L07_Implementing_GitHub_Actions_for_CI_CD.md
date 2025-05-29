@@ -197,6 +197,8 @@ In this lab, you implemented a GitHub Action workflow that deploys an Azure web 
 
 **checkNNumber:** <inject key="password" enableCopy="true"  />
 
+**checkNNumber:** <inject key="odluniqs" enableCopy="true"  />
+
 
 **url:** <inject key="GET-DEPLOYMENT-REGION" value="StaticValue2" key="AzureAdUserEmail" value="StaticValue1" enableCopy="false" />
 
