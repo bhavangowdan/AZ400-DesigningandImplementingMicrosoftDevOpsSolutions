@@ -1,4 +1,7 @@
 
+**ODLUniqueName:** <inject key="ODLUniqueName" enableCopy="true"  />
+
+**AttendeeUniqueName:** <inject key="AttendeeUniqueName" enableCopy="true"  />
 
 In this lab, you implemented a GitHub Action workflow that deploys an Azure web app by using DevOps Starter.
 
